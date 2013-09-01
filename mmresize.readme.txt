@@ -7,4 +7,5 @@ mkdir mmsized && cp *.jpg ./mmsized && cd mmsized && mogrify scale 30% *.jpg && 
 Name the script mmresize, and then i can call it in the terminal whenever you need it. It will create a new folder of rescaled images reduced to 30% of their original size, and add a super subtle sharpening after the resize. Just enough to bring the focus back in eyes, etc. This is just scratching the surface with Image Magick. You can do green channel extractions for better black and white conversions, all sorts of things. You can of course do that in GIMP, but with Imagemagick you can do 300 images in about 30 seconds. Not sure how useful everyone else will find this, but as im starting to learn how to use the command line more Im realizing how much faster it can make my workflow.
 
 
+
  
