@@ -1,1 +1,1 @@
-mkdir mmsized && cp *.jpg ./mmsized && cd mmsized && mogrify scale 30% *.jpg && mogrify sharpen 1 *.jpg
+mkdir mmsized && cp *.jpg ./mmsized && cd mmsized && mogrify -scale 30% *.jpg && mogrify -sharpen 1 *.jpg
